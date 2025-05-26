@@ -9,6 +9,7 @@ body {
 
 /* Navigatiebalk */
 #navigatie {
+  display: flex;
   background-color: #1f3c9e; /* Donkergrijze achtergrond */
   overflow: hidden;
   padding: 10px 0;
