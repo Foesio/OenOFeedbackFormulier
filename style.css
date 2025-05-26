@@ -244,3 +244,37 @@ button:hover {
   flex-grow: 1;  /* vul beschikbare ruimte */
   max-width: 300px; /* optioneel max breedte */
 }
+
+@media (max-width: 768px) {
+  .blok, .blok2, .titel2, .titel7, .video, .anderen {
+    width: 90%;
+    height: auto;
+  }
+
+  .afbeelding {
+    justify-content: center;
+  }
+
+  .afbeelding img {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  #navigatie a {
+    display: block;
+    padding: 15px;
+  }
+
+  .buttons-wrapper {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .rating {
+    flex-wrap: wrap;
+  }
+
+  .intro-tekst {
+    padding: 0 10px;
+  }
+}
