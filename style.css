@@ -308,3 +308,52 @@ button:hover {
   }
 }
 
+@media (max-width: 600px) {
+  /* Container smaller en met minder padding */
+  .container {
+    max-width: 95%;
+    padding: 10px;
+  }
+
+  /* Kleinere titels */
+  .titel2 h1 {
+    font-size: 1.5rem;
+  }
+
+  /* Kleinere koppen binnen blokken */
+  .blok h3 {
+    font-size: 1.1rem;
+  }
+
+  /* Labels van de rating iets kleiner */
+  .rating label {
+    font-size: 0.9rem;
+  }
+
+  /* Maak de verzendknop breder en groter */
+  #verstuur {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 1.1rem;
+  }
+
+  /* Navigatie onder elkaar en gecentreerd */
+  #navigatie {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navigatie a {
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Footer tekst iets kleiner en met meer padding */
+  #voet .footer-content p {
+    font-size: 0.9rem;
+    padding: 5px 0;
+  }
+}
+
+
